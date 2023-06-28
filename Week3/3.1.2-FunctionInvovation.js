@@ -9,7 +9,8 @@ function myNumberFunction() {
 console.log(myNumberFunction);
 
 // now, invoke the myNumberFunction function
-function myNumberFunction();
+myNumberFunction();
 
 // print just the function of console.log (no invocation)
 console.log(typeof function);
+console.log(console.log);

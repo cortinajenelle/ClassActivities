@@ -11,7 +11,7 @@ console.log(numberofToppings);
 
 // Print a template literal that uses both variables to construct a short sentence about your Pizza Place.
 
-console.log("When you order at" + { pizzaPlace } + ", they give you the option of " + { numberOfToppings } + "toppings. ");
+console.log('"When you order at" + { pizzaPlace } + ", they give you the option of " + { numberOfToppings } + "toppings. "'git );
 
 // Construct an if statement that prints "Quality, not quantity." if you offer less than 10 toppings,
 // or "A whole lot of pizza." if you offer 10 or more toppings.

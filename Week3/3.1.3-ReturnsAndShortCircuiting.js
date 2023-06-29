@@ -15,8 +15,6 @@ console.log(totalSum); // 47
 
 // change the function above to return a value
 
-
-
 // Short Circuiting
 // ! the console.log will not print
 function shortCircuitFunction() {

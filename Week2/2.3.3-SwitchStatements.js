@@ -7,7 +7,7 @@ let dayName = `Today`;
 // Complete this switch case statement to produce the correct results please.
 
 switch (day) {
-  case 3 :
+  case 3:
     dayName = `Today is Wednesday`;
     break;
   case 1:
@@ -20,7 +20,7 @@ switch (day) {
     console.log(message);
     break;
   }
-  case 5 : {
+  case 5: {
     const message = `Tomorrow it's the weekend!`;
     console.log(message);
     break;
@@ -32,10 +32,9 @@ switch (day) {
     console.log(`Today is Tuesday`);
     break;
   // write a case here for the weekend (how many days in the weekend?)
-  case (7 , 0):
+  case (7, 0):
     alert(`It's the Weekend !!`);
-
 }
-if (dayName !== 'Today'){
-console.log(dayName);
+if (dayName !== "Today") {
+  console.log(dayName);
 }

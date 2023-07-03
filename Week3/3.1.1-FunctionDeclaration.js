@@ -5,7 +5,8 @@ const greet = function() {
 };
 
 // #1 function declaration
-function greet (){
+greet();
+{
   console.log("Hello!");
 }
 
@@ -15,19 +16,22 @@ const threeModTwo = function() {
 };
 
 // #2 function declaration
-function threeModTwo (){
-console.log(3 % 2);
+threeModTwo();
+{
+  console.log(3 % 2);
 }
 
 // #3 function expression
 let age = 18;
-const checkDrivingAge = function() {
+checkDrivingAge = function() {
   if (age >= 16) {
     console.log(true);
   } else {
     console.log(false);
   }
 };
+
+checkDrivingAge();
 
 // #3 function declaration
 function checkDrivingAge (){
@@ -37,5 +41,3 @@ function checkDrivingAge (){
     console.log(false);
   }
 }
-
-

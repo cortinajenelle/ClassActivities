@@ -27,7 +27,9 @@ b[0] = "value";
 c.property = "value";
 
 // using DOT NOTATION, assign a METHOD to c
-c.method = () => {console.log("im a method!")}
+c.method = () => {
+  console.log("im a method!");
+};
 
 // using BRACKET NOTATION, call the method in c
 c["method"]();

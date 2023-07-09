@@ -34,7 +34,7 @@ checkDrivingAge = function() {
 checkDrivingAge();
 
 // #3 function declaration
-function checkDrivingAge (){
+function checkDrivingAge() {
   if (age >= 16) {
     console.log(true);
   } else {

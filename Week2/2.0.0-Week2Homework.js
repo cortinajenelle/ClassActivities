@@ -8,8 +8,8 @@ let numberOfToppings = 7;
 
 console.log(pizzaPlace);
 console.log(typeof pizzaPlace);
-console.log(numberofToppings);
-console.log(typeof numberofToppings);
+console.log(numberOfToppings);
+console.log(typeof numberOfToppings);
 
 // Print a template literal that uses both variables to construct a short sentence about your Pizza Place.
 
@@ -22,17 +22,16 @@ console.log(
 
 if (numberOfToppings < 10) {
   console.log("Quality, not quantity.");
-} else if (numberofToppings >= 10) {
+} else if (numberOfToppings >= 10) {
   console.log("A whole lot of pizza.");
 }
 
 // Use a loop to print all of the even numbers from 1 to numberOfToppings (or 10)
 
 let x = 1;
-let numberofToppings;
 while (x <= 10) {
-  numberofToppings = x;
-  console.log(numberofToppings);
+  numberOfToppings = x;
+  console.log(numberOfToppings);
   x++;
 }
 

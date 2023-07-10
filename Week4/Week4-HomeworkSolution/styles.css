@@ -30,3 +30,8 @@ footer {
   font-size: 1.2em;
   font-weight: 300;
 }
+
+#myID {
+  color: #000000;
+  font-size: 20px;
+}

@@ -24,7 +24,9 @@ function greetCustomer() {
 // outputs a list with the size, crust, and toppings
 
 function getPizzaOrder(size, crust, ...toppings) {
-  console.log(`One ${size} ${crust} crust pizza with ${toppings.join(", ")} coming up!`);
+  console.log(
+    `One ${size} ${crust} crust pizza with ${toppings.join(", ")} coming up!`
+  );
   return [size, crust, ...toppings];
 }
 
@@ -37,9 +39,9 @@ function preparePizza([size, crust, toppings]) {
   console.log("...Cooking pizza...");
 
   return {
-  size: size,
-  crust: crust,
-  toppings: toppings
+    size: size,
+    crust: crust,
+    toppings: toppings
   };
 }
 
@@ -48,7 +50,11 @@ function preparePizza([size, crust, toppings]) {
 // outputs the same pizza Object that was passed in
 
 function servePizza(pizza) {
-  console.log(`Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza with ${pizza.toppings.join(", ")}. Enjoy!`);
+  console.log(
+    `Order up! Here's your ${pizza.size} ${
+      pizza.crust
+    } crust pizza with ${pizza.toppings.join(", ")}. Enjoy!`
+  );
   return pizza;
 }
 

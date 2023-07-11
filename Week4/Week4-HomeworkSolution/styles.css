@@ -21,17 +21,12 @@ footer {
   background-color: #287429;
 }
 
-. facilitation-tools {
+.facilitation-tools {
   font-size: 1.2em;
   font-weight: 300;
 }
 
-. creativity-benefits {
-  font-size: 1.2em;
-  font-weight: 300;
-}
-
-#myID {
+#creativity-benefits {
   color: #000000;
   font-size: 20px;
 }

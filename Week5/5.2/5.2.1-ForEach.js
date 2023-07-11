@@ -249,4 +249,5 @@ console.log(coords);
 
 // create an array of strings that combine the company's catchPhrase and bs
 
+
 // query the HTML for the class class-week, then use forEach to change the text content

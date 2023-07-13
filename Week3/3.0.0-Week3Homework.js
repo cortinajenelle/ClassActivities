@@ -1,6 +1,6 @@
 // #1 Create an array of pizzaToppings with at least four different toppings
 
-const pizzaToppings = ["a", "b", "c", "d", "e"];
+let pizzaToppings = ["a", "b", "c", "d", "e"];
 
 // #2 Create a greetCustomer function that prints a message that welcomes a guest,
 // then informs them of the available toppings by looping over pizzaToppings
@@ -8,12 +8,10 @@ const pizzaToppings = ["a", "b", "c", "d", "e"];
 // i.e. "Welcome to Pizza House, our toppings are: a, b, c, ..."
 
 function greetCustomer() {
-  var pizzaToppings = ["a", "b", "c", "d", "e"];
-
   console.log("Welcome to Pizza House,");
   console.log("our toppings are:");
 
-  for (var i = 0; i < pizzaToppings.length; i++) {
+  for (let i = 0; i < pizzaToppings.length; i++) {
     console.log("- " + pizzaToppings[i]);
   }
 }
@@ -53,18 +51,22 @@ function servePizza(pizza) {
   console.log(
     `Order up! Here's your ${pizza.size} ${
       pizza.crust
-    } crust pizza with ${pizza.toppings.join(", ")}. Enjoy!`
+    } crust pizza with ${pizza.toppings}. Enjoy!`
   );
   return pizza;
 }
 
-// Call each function and starting with preparePizza use the returned value from the previous function as its input
+// #6 Call each function and starting with preparePizza use the returned value from the previous function as its input
 
-var order = getPizzaOrder("large", "thick", "a", "b", "c");
-var pizza = preparePizza(getPizzaOrder);
-var servedPizza = servePizza(pizza);
+//greetCustomer
 
-console.log(servedPizza);
+//let order = getPizzaOrder("large", "thick", "a", "b", "c");
+//let pizza = preparePizza(getPizzaOrder);
+//let servedPizza = servePizza(pizza);
+//console.log(servedPizza);
+
+greetCustomer("Cortina");
+servePizza(preparePizza(getPizzaOrder("large", "thick", "a", "b", "c")));
 
 // BONUS #9 Figure out how to add "and" before the last topping in a list of toppings so when we list toppings it is more grammatically correct.
 // You could create a listToppings function that stores the functionality, and call the function each time we list toppings in a function.

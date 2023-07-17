@@ -12,6 +12,7 @@ function myFunction(param1, param2){
 // myFunction(5, 4);
 
 console.log(myFunction(5,4));
+// OR ANOTHER WAY TO WRITE THAT IS:
 let sumOf = myFunction (5,4);
 console.long(sumOf);
 
@@ -38,7 +39,8 @@ console.log(oneNumAgain);
 // Rest Operator
 // add a rest operator to the function's parameters
 // add a line to the function's body to print the value of the rest operator
-function myFunctionRestParam(param1, ...param2) {
+
+function myFunction(param1, ...param2) {
   console.log(param1);
   console.log(param2);
 
@@ -46,5 +48,5 @@ function myFunctionRestParam(param1, ...param2) {
 }
 
 // again, invoke the function and pass in more than two numbers
-let infiniteNums = myFunctionRestParam(1, 2, 3, 4, 5, 6, 7, 8);
+let infiniteNums = myFunction(1, 2, 3, 4, 5, 6, 7, 8);
 console.log(infiniteNums);

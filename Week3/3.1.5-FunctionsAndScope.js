@@ -33,9 +33,16 @@ function childScope(param) {
   console.log("Child Scope, Child Variable:", childVariable);
 }
 
+// console.log("Child Scope, Parent Variable:", param); --> because it contains 
+// a variable that was called outside of its scope, it's undefined
+
+
 function parentAndChildScope() {
   const parentVariable = "I am in the parent's scope";
   childScope(parentVariable);
   console.log("Parent Scope, Parent Variable:", parentVariable);
   console.log("Parent Scope, Child Variable:", childVariable);
 }
+
+// console.log("Parent Scope, Child Variable:", childVariable); --> because it contains 
+// a variable that was called outside of its scope, it's undefined

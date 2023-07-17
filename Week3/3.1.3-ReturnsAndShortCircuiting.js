@@ -37,3 +37,14 @@ function checkCircusRides() {
 }
 
 // change the function above to use short circuiting
+
+let height = 50;
+function checkCircusRides() {
+  if (height < 48) {
+    return console.log("Take a ride on the carousel!");
+  }
+  if (height < 60) {
+    return console.log("Try the bumper cars!");
+  }
+    return console.log("Enjoy the roller coaster!");
+}

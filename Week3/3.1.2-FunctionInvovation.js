@@ -12,5 +12,4 @@ console.log(myNumberFunction);
 myNumberFunction();
 
 // print just the function of console.log (no invocation)
-console.log(typeof function);
 console.log(console.log);

@@ -5,19 +5,17 @@ const greet = function() {
 };
 
 // #1 function declaration
-greet();
-{
+function greet(){
   console.log("Hello!");
 }
 
 // #2 function expression
-const threeModTwo = function() {
+const threeModTwo = function(){
   console.log(3 % 2);
 };
 
 // #2 function declaration
-threeModTwo();
-{
+function threeModTwo(){
   console.log(3 % 2);
 }
 

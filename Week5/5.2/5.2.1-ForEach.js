@@ -249,5 +249,24 @@ console.log(coords);
 
 // create an array of strings that combine the company's catchPhrase and bs
 
+const arrOfString = [];
 
-// query the HTML for the class class-week, then use forEach to change the text content
+//data.company.catchPhrase
+//data.company.bs
+data.forEach(user => {
+  let str = `${user.company.catchPhrase} ${user.company.bs}` ;
+  arrOfString.push(str);
+});
+
+// query the HTML for the class class-week, 
+//then use forEach to change the text content
+
+const data = [];
+function iterate(html) {
+  console.log(html); // explicitly print a result
+}
+
+html.class-week(iterate);
+
+// The above code can be refactored as follows...
+data.forEach((html) => console.log(html));

@@ -12,6 +12,6 @@
 
 1. To successfully complete the capstone project so that I can continue developing it.
 2. To create an eye-catching LinkedIN profile that allows me to be my authentic self in a sea of web developers also hoping to get noticed.
-3. To make JavaScript my bitch. Can I say that? Oh well. It almost ended me in the pre-work.
+3. To make JavaScript my b*tch. Can I say that? Oh well. It almost ended me in the pre-work.
 4. To build back up my confidence and self-esteem through the little achievements in the FS Bootcamp so that I do not self-sabotage because of fear, doubt or old narratives.
 5. To trust my mentors to guide me along the way, and hopefully forge life-long friendships built on a mutual trust, respect, care and passion for coding.
